@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root {
+    /* Fonts */
+    --heading-font: 'Poppins', Arial;
+    --body-font: 'Open Sans', Arial;
+
+    /* Colors */
+    --pink: hsl(322, 100%, 66%);
+    --pale-cyan: hsl(193, 100%, 96%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --gray-blue: hsl(208, 11%, 55%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--heading-font);
+}
+
+button {
+    padding: 8px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+/* Mian Section */
+
+main {
+    background-image: url(images/bg-hero-mobile.svg);
+    background-color: var(--pale-cyan);
+    padding-bottom: 20px;
+}
+
+.main-img {
+    width: 325px;
+}
+
+#logo {
+    width: 110px;
+}
+
+.top-div {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-div > button {
+    background-color: white;
+    box-shadow: 2px 2px 5px #c5c5c5;
+}
+
+.main-lines {
+    width: 80%;
+    margin: 40px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-lines > h1 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.main-lines > p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.main-lines > button {
+    width: 180px;
+    height: 34px;
+    margin: 0 auto;
+    background-color: var(--pink);
+    color: white;
+    font-size: 0.7rem;
+    box-shadow: 2px 2px 5px #c5c5c5;
+}
+
+#mockups {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
