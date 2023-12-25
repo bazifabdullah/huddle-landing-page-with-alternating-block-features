@@ -555,20 +555,20 @@ a {
     }
 
     .about-img {
-        width: 500px;
+        width: 450px;
         padding: 5px;
     }
 
     .about-content {
-        padding: 0 60px;
+        padding: 0 120px;
     }
 
     .about-content h3 {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 
     .about-content p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .about > .community-div {
