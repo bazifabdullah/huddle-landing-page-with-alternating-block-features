@@ -38,6 +38,14 @@ button {
     font-weight: 700;
 }
 
+.pink-button:hover {
+    background-color: hsla(322, 100%, 66%, 0.7);
+}
+
+.white-button:hover {
+    color: rgba(0, 0, 0, 0.526);
+}
+
 /* Mian Section Start*/
 
 main {
@@ -234,6 +242,10 @@ a {
     cursor: pointer;
     text-decoration: none;
     color: white;
+}
+
+.summary > div > a:hover {
+    color: var(--pink);
 }
 
 .copyright {
