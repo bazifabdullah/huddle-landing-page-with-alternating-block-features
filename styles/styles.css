@@ -592,6 +592,11 @@ a {
         padding-right: 50px;
     }
 
+    .footer-content {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
     .footer-logo {
         width: 200px;
     }
@@ -611,6 +616,7 @@ a {
 
     .copyright {
         font-size: 1rem;
+        text-align: right;
     }
 
     .author {
