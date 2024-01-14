@@ -128,9 +128,10 @@ main {
 .about {
     margin: 60px auto;
     display: grid;
-    grid-template-columns: repeat(1 1fr);
+    grid-template-columns: repeat(1, 1fr);
     row-gap: 20px;
     width: 85%;
+    padding-top: 60px;
 }
 
 .about-content p {
@@ -161,7 +162,7 @@ main {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 20px 10px;
     position: relative;
-    top: 120px;
+    top: 80px;
     height: 160px;
 }
 
@@ -267,6 +268,13 @@ a {
 }
 
 /* Footer End */
+
+/* Utility Classes */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 374px) {
@@ -551,10 +559,6 @@ a {
         height: 50px;
     }
 
-    .about > div {
-        height: 500px;
-    }
-
     .about-img {
         width: 450px;
         padding: 5px;
@@ -616,8 +620,8 @@ a {
 
     .copyright {
         font-size: 1rem;
-        text-align: right;
-        margin-bottom: 40px;
+        text-align: center;
+        margin-bottom: 10px;
     }
 
     .author {
